@@ -5,7 +5,6 @@ import giftList from "./gift-list.json";
 function App() {
   const { gifts } = giftList;
 
-  console.log("=> ", gifts);
   return (
     <section className="main-container">
       <header>

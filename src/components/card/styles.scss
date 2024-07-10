@@ -1,8 +1,7 @@
 @import "../../styles/_variables";
 
 .card-container {
-  width: fit-content;
-  max-width: 180px;
+  width: 100%;
   padding: 16px;
   border-radius: 8px;
   background-color: $color-gray-0;
@@ -12,7 +11,8 @@
 
   > img {
     width: 100%;
-    object-fit: cover;
+    height: 170px;
+    object-fit: contain;
   }
 
   > p {

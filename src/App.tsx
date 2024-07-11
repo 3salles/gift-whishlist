@@ -13,7 +13,7 @@ function App() {
       <article>
         Aqui está a lista de algumas coisas que eu gostaria de ganhar, alguns
         itens tem o link da Amazon para se basearem, mas podem comprar de outros
-        lugares S2.
+        lugares e de outras marcas S2.
       </article>
       <article className="card-wrapper">
         {gifts.map((gift) => (

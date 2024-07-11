@@ -10,15 +10,19 @@
     font-size: 32px;
   }
 
+  article {
+    text-align: center;
+  }
+
   article + article {
-    margin-top: 16px;
+    margin-top: 24px;
   }
 
   .card-wrapper {
     display: grid;
     justify-content: center;
     grid-template-columns: 280px;
-    gap: 24px;
+    gap: 16px;
   }
 }
 

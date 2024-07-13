@@ -1,8 +1,8 @@
 import "./styles/App.scss";
 
-import Card from "./components/card";
 import giftList from "./gift-list.json";
-import Modal from "./components/modal";
+import Card from "./components/commons/card";
+import FinalModal from "./components/final-modal";
 
 function App() {
   const { gifts } = giftList;
@@ -24,12 +24,7 @@ function App() {
           ))}
         </article>
       </section>
-      <Modal
-        visible
-        content={<p>Teste</p>}
-        closable
-        onClose={() => console.log("=> clicked")}
-      />
+      <FinalModal />
     </>
   );
 }

@@ -46,6 +46,10 @@
     }
   }
 
+  &-adjust-height {
+    height: 40px;
+  }
+
   &:last-child {
     > p {
       height: 40px;

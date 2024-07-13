@@ -1,15 +1,14 @@
 import "./styles/App.scss";
 
-import giftList from "./gift-list.json";
 import Card from "./components/commons/card";
 import FinalModal from "./components/final-modal";
 import { firebaseDb } from "./services/firebase-config";
 import { useEffect, useState } from "react";
 import { onValue, ref } from "firebase/database";
+import sortByLinkPresence from "./feature/utils/sort-by-link-presence";
+import { IGift } from "./feature/types/gifts.type";
 
 function App() {
-  // const { gifts } = giftList;
-
   const [gifts, setGifts] = useState<any>([]);
 
   useEffect(() => {
@@ -19,21 +18,13 @@ function App() {
       const data = snapshot.val();
 
       if (snapshot.exists()) {
-        const projectsArray = Object.values(data);
-        setGifts(projectsArray);
+        const projectsArray = Object.values<IGift>(data);
+        setGifts(sortByLinkPresence(projectsArray));
       }
     });
 
     return () => unsubscribe();
   }, []);
-
-  const giftsByKey: any = {};
-
-  giftList.gifts.forEach((gift) => {
-    giftsByKey[gift.uid] = gift;
-  });
-
-  console.log("=> ", gifts);
 
   return (
     <>
@@ -47,7 +38,7 @@ function App() {
           outros lugares e de outras marcas S2.
         </article>
         <article className="card-wrapper">
-          {gifts.map((gift: any) => (
+          {sortByLinkPresence(gifts).map((gift: any) => (
             <Card
               key={gift.name}
               name={gift.name}

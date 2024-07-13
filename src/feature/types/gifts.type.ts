@@ -7,7 +7,7 @@ export interface IGift {
     alt: string;
     src: string;
   };
-  available?: string;
+  available?: number;
   link?: string;
 }
 export interface IGiftsState {

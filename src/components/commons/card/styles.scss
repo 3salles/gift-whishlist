@@ -55,4 +55,9 @@
       height: 40px;
     }
   }
+
+  :disabled {
+    background-color: $color-gray-100;
+    cursor: not-allowed;
+  }
 }

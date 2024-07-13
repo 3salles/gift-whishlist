@@ -38,12 +38,13 @@ function App() {
           outros lugares e de outras marcas S2.
         </article>
         <article className="card-wrapper">
-          {sortByLinkPresence(gifts).map((gift: any) => (
+          {sortByLinkPresence(gifts).map((gift: IGift) => (
             <Card
               key={gift.name}
               name={gift.name}
               image={gift.image}
               link={gift.link}
+              available={gift.available}
             />
           ))}
         </article>

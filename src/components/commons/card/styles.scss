@@ -45,4 +45,10 @@
       filter: brightness(0.8);
     }
   }
+
+  &:last-child {
+    > p {
+      height: 40px;
+    }
+  }
 }

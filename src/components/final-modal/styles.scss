@@ -11,20 +11,48 @@
     font-size: 20px;
   }
 
-  > button {
+  > input {
     margin-top: 24px;
-    height: 40px;
-    padding: 16px;
-    background-color: $color-pink-pastel-500;
-    color: $color-gray-0;
+    padding: 8px;
     border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 120px;
+    border: 1px solid $color-gray-900;
+    width: 300px;
+  }
 
-    &:hover {
-      filter: brightness(0.8);
+  footer {
+    display: flex;
+    gap: 16px;
+
+    > button {
+      margin-top: 24px;
+      height: 40px;
+      padding: 16px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 120px;
+    }
+
+    .primary {
+      background-color: $color-pink-pastel-500;
+      color: $color-gray-0;
+
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+
+    .secondary {
+      border: 1px solid $color-pink-pastel-500;
+      background-color: transparent;
+      color: $color-pink-pastel-500;
+
+      &:hover {
+        border: 0;
+        background-color: $color-red-pastel-100;
+        color: $color-gray-0;
+      }
     }
   }
 }

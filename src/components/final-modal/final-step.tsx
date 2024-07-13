@@ -10,7 +10,10 @@ export default function FinalStep() {
       />
 
       <p>Obrigada pelo presente! Te vejo no rolê!</p>
-      <button>Fechar</button>
+
+      <footer>
+        <button className="primary">Fechar</button>
+      </footer>
     </div>
   );
 }

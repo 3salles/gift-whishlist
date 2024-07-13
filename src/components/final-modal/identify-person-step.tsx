@@ -1,6 +1,12 @@
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import useGiftStore from "../../store/gifts.store";
 
 export default function IdentifyPersonStep() {
+  const { finalModal, toggleFinalModal } = useGiftStore();
+
+  const onCancel = () => toggleFinalModal({ ...finalModal, visible: false });
+  const onSend = () => toggleFinalModal({ ...finalModal, step: "final" });
+
   return (
     <div className="final-modal-content">
       <DotLottieReact
@@ -17,8 +23,12 @@ export default function IdentifyPersonStep() {
       <input type="text" placeholder="Digite seu nome" />
 
       <footer>
-        <button className="primary">Enviar</button>
-        <button className="secondary">Cancelar</button>
+        <button className="primary" onClick={onSend}>
+          Enviar
+        </button>
+        <button className="secondary" onClick={onCancel}>
+          Cancelar
+        </button>
       </footer>
     </div>
   );

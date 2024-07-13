@@ -20,7 +20,12 @@ function App() {
         </article>
         <article className="card-wrapper">
           {gifts.map((gift) => (
-            <Card name={gift.name} image={gift.image} link={gift.link} />
+            <Card
+              key={gift.name}
+              name={gift.name}
+              image={gift.image}
+              link={gift.link}
+            />
           ))}
         </article>
       </section>

@@ -1,6 +1,11 @@
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import useGiftStore from "../../store/gifts.store";
 
 export default function FinalStep() {
+  const { toggleFinalModal } = useGiftStore();
+
+  const onClose = () => toggleFinalModal({ step: "identify", visible: false });
+
   return (
     <div className="final-modal-content">
       <DotLottieReact
@@ -12,7 +17,9 @@ export default function FinalStep() {
       <p>Obrigada pelo presente! Te vejo no rolê!</p>
 
       <footer>
-        <button className="primary">Fechar</button>
+        <button className="primary" onClick={onClose}>
+          Fechar
+        </button>
       </footer>
     </div>
   );

@@ -1,3 +1,4 @@
+import useGiftStore from "../../../store/gifts.store";
 import "./styles.scss";
 
 import { BsFillGiftFill } from "react-icons/bs";
@@ -9,6 +10,10 @@ interface ICardProps {
 }
 
 export default function Card({ image, name, link }: ICardProps) {
+  const { toggleFinalModal } = useGiftStore();
+
+  const onGift = () => toggleFinalModal({ visible: true, step: "identify" });
+
   return (
     <div className="card-container">
       <img src={image.src} alt={image.alt} />
@@ -18,7 +23,7 @@ export default function Card({ image, name, link }: ICardProps) {
           Sugestão de compra
         </a>
       )}
-      <button>
+      <button onClick={onGift}>
         <BsFillGiftFill />
         Presentear
       </button>

@@ -1,5 +1,7 @@
 import "./styles.scss";
 
+import { BsFillGiftFill } from "react-icons/bs";
+
 interface ICardProps {
   image: { src: string; alt: string };
   name: string;
@@ -16,7 +18,10 @@ export default function Card({ image, name, link }: ICardProps) {
           Sugestão de compra
         </a>
       )}
-      <button>Presentear</button>
+      <button>
+        <BsFillGiftFill />
+        Presentear
+      </button>
     </div>
   );
 }

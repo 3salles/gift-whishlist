@@ -1,7 +1,8 @@
 import { create } from "zustand";
-import { IFinalModal, IGiftsAction } from './../feature/types/gifts.type';
-import { IGiftsState } from "../feature/types/gifts.type";
+
+
 import giftsInitialState from './gifts-initial-state';
+import { IFinalModal, IGiftsAction, IGiftsState } from "../types/gifts.type";
 
 
 const useGiftStore = create<IGiftsState & IGiftsAction>((set) => ({

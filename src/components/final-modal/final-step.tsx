@@ -1,5 +1,5 @@
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
-import useGiftStore from "../../store/gifts.store";
+import useGiftStore from "../../feature/store/gifts.store";
 
 export default function FinalStep() {
   const { toggleFinalModal } = useGiftStore();

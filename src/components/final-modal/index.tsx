@@ -3,7 +3,7 @@ import "./styles.scss";
 import Modal from "../commons/modal";
 import FinalStep from "./final-step";
 import IdentifyPersonStep from "./identify-person-step";
-import useGiftStore from "../../store/gifts.store";
+import useGiftStore from "../../feature/store/gifts.store";
 
 export default function FinalModal() {
   const { finalModal } = useGiftStore();

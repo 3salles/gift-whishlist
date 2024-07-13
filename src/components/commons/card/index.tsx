@@ -1,4 +1,4 @@
-import useGiftStore from "../../../store/gifts.store";
+import useGiftStore from "../../../feature/store/gifts.store";
 import "./styles.scss";
 
 import { BsFillGiftFill } from "react-icons/bs";

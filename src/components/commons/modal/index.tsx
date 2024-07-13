@@ -1,8 +1,8 @@
-import { ReactNode } from "react";
 import "./styles.scss";
 
+import { ReactNode } from "react";
 import { IoCloseSharp } from "react-icons/io5";
-import useGiftStore from "../../../store/gifts.store";
+import useGiftStore from "../../../feature/store/gifts.store";
 
 interface IModal {
   content: ReactNode;

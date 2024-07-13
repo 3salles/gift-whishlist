@@ -1,19 +1,22 @@
 import useGiftStore from "../../../feature/store/gifts.store";
+import { IGift } from "../../../feature/types/gifts.type";
 import "./styles.scss";
 
 import { BsFillGiftFill } from "react-icons/bs";
 
 interface ICardProps {
-  image: { src: string; alt: string };
-  name: string;
-  available?: number;
-  link?: string;
+  gift: IGift;
 }
 
-export default function Card({ image, name, link, available }: ICardProps) {
-  const { toggleFinalModal } = useGiftStore();
+export default function Card({ gift }: ICardProps) {
+  const { toggleFinalModal, onSelectGift } = useGiftStore();
 
-  const onGift = () => toggleFinalModal({ visible: true, step: "identify" });
+  const { image, name, link, available } = gift;
+
+  const onGift = () => {
+    onSelectGift(gift);
+    toggleFinalModal({ visible: true, step: "identify" });
+  };
   const disabled = !available && available === 0;
 
   return (

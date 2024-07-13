@@ -1,7 +1,9 @@
-import { IGiftsState } from "../feature/types/gifts.type";
+import { IGift, IGiftsState } from "../types/gifts.type"
+
 
 const giftsInitialState: IGiftsState = {
-  finalModal: {visible: false, step: 'identify'}
+  finalModal: {visible: false, step: 'identify'},
+  selectedGift: {} as IGift,
 }
 
 

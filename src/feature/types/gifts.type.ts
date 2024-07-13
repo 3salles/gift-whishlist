@@ -12,8 +12,10 @@ export interface IGift {
 }
 export interface IGiftsState {
   finalModal: IFinalModal;
+  selectedGift: IGift;
 }
 
 export interface IGiftsAction {
   toggleFinalModal: (modal: IFinalModal) => void;
+  onSelectGift: (gift: IGift) => void;
 }

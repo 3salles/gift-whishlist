@@ -7,9 +7,12 @@ import { useEffect, useState } from "react";
 import { onValue, ref } from "firebase/database";
 import sortByLinkPresence from "./feature/utils/sort-by-link-presence";
 import { IGift } from "./feature/types/gifts.type";
+import useGiftStore from "./feature/store/gifts.store";
 
 function App() {
   const [gifts, setGifts] = useState<any>([]);
+  const { selectedGift } = useGiftStore();
+  console.log("=> ", selectedGift);
 
   useEffect(() => {
     const query = ref(firebaseDb, "gifts");
@@ -39,13 +42,7 @@ function App() {
         </article>
         <article className="card-wrapper">
           {sortByLinkPresence(gifts).map((gift: IGift) => (
-            <Card
-              key={gift.name}
-              name={gift.name}
-              image={gift.image}
-              link={gift.link}
-              available={gift.available}
-            />
+            <Card key={gift.uid} gift={gift} />
           ))}
         </article>
       </section>

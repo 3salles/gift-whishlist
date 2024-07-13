@@ -7,7 +7,8 @@
       },
       "available": "1",
       "name": "Pipoqueira",
-      "link": "https://www.amazon.com.br/Tramontina-PIPOQUEIRA-20CM-LORETO-VERMELHO/dp/B09W4CSX53/ref=asc_df_B09W4CSX53/?tag=googleshopp00-20&linkCode=df0&hvadid=555495720867&hvpos=&hvnetw=g&hvrand=13161590242518066902&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9197317&hvtargid=pla-1648147887490&psc=1&mcid=a8e89279af9331418bd701d92cbb4116"
+      "link": "https://www.amazon.com.br/Tramontina-PIPOQUEIRA-20CM-LORETO-VERMELHO/dp/B09W4CSX53/ref=asc_df_B09W4CSX53/?tag=googleshopp00-20&linkCode=df0&hvadid=555495720867&hvpos=&hvnetw=g&hvrand=13161590242518066902&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9197317&hvtargid=pla-1648147887490&psc=1&mcid=a8e89279af9331418bd701d92cbb4116",
+      "uid": "7e96960f-e938-4b60-9af4-9669449db3c2"
     },
     {
       "image": {
@@ -16,7 +17,8 @@
       },
       "available": "1",
       "name": "Varal de chão",
-      "link": "https://www.amazon.com.br/dp/B0D1HHMVGV/?coliid=I1FPHEJFI5L34S&colid=2UP0XBDVHZORH&ref_=list_c_wl_lv_ov_lig_dp_it&th=1"
+      "link": "https://www.amazon.com.br/dp/B0D1HHMVGV/?coliid=I1FPHEJFI5L34S&colid=2UP0XBDVHZORH&ref_=list_c_wl_lv_ov_lig_dp_it&th=1",
+      "uid": "286ea71e-2a5d-454c-bedd-d96f560a35f7"
     },
     {
       "image": {
@@ -25,7 +27,8 @@
       },
       "available": "1",
       "name": "Liquidificador",
-      "link": "https://www.amazon.com.br/dp/B08DFJRCJB/?coliid=INSODGJ1YQNBA&colid=2UP0XBDVHZORH&ref_=list_c_wl_lv_ov_lig_dp_it&th=1"
+      "link": "https://www.amazon.com.br/dp/B08DFJRCJB/?coliid=INSODGJ1YQNBA&colid=2UP0XBDVHZORH&ref_=list_c_wl_lv_ov_lig_dp_it&th=1",
+      "uid": "5f43d926-e900-4ad9-8fd8-9ecd81a9af68"
     },
     {
       "image": {
@@ -34,35 +37,40 @@
       },
       "available": "1",
       "name": "Sanduicheira",
-      "link": "https://www.amazon.com.br/Sanduicheira-Master-Grill-Inox-S-20/dp/B084XRBHB8/ref=sr_1_1_sspa?crid=19DB79WAMSSJB&dib=eyJ2IjoiMSJ9.W6L-10ELrLc0_jASjE9m3woOiemprvUe3QiHFrLPP6OH8CNqFOInwrY4EsLgI8d00q7NqsjN6LCufV30NY4WKZLoquDb46XiNY69xk5YMp6HqydIIZoEOOGEnX9JcA_4Vx0TVUlSVuhUmLxFFK3X2BDljpUngfNEl1GmHztXQxLSN-WSDm5f2TAqZBr5Yi2_QFqeRYKcv4_o1_7_d6iFwhm7Eo-ra9viwwnRd7tnBmwn0Bd_VBXCC7g9SyNG9MltQranv-XOkCOf4o4uQO-yOSU3wwnY1wEL63jdgipH7fE.xH5g4pAEK8tC2qXIrV9dwdySFs695SYrddz0aLHLCR8&dib_tag=se&keywords=sanduicheira&qid=1720643181&sprefix=sandui%2Caps%2C347&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+      "link": "https://www.amazon.com.br/Sanduicheira-Master-Grill-Inox-S-20/dp/B084XRBHB8/ref=sr_1_1_sspa?crid=19DB79WAMSSJB&dib=eyJ2IjoiMSJ9.W6L-10ELrLc0_jASjE9m3woOiemprvUe3QiHFrLPP6OH8CNqFOInwrY4EsLgI8d00q7NqsjN6LCufV30NY4WKZLoquDb46XiNY69xk5YMp6HqydIIZoEOOGEnX9JcA_4Vx0TVUlSVuhUmLxFFK3X2BDljpUngfNEl1GmHztXQxLSN-WSDm5f2TAqZBr5Yi2_QFqeRYKcv4_o1_7_d6iFwhm7Eo-ra9viwwnRd7tnBmwn0Bd_VBXCC7g9SyNG9MltQranv-XOkCOf4o4uQO-yOSU3wwnY1wEL63jdgipH7fE.xH5g4pAEK8tC2qXIrV9dwdySFs695SYrddz0aLHLCR8&dib_tag=se&keywords=sanduicheira&qid=1720643181&sprefix=sandui%2Caps%2C347&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
+      "uid": "e54b17f8-27a1-4049-9328-6c589a103502"
     },
     {
       "image": {
         "src": "https://www.toaminetoalhas.com.br/wp-content/uploads/2022/04/toalha-banho-amarilis-1.jpg",
         "alt": "Imagem de um kit de toalhas de banho"
       },
-      "name": "Toalha de banho"
+      "name": "Toalha de banho",
+      "uid": "34118737-c0b2-49a7-99b9-25202a937817"
     },
     {
       "image": {
         "src": "https://images.tcdn.com.br/img/img_prod/1062148/kit_toalha_rosto_04_pecas_alta_absorcao_felpudas_100_algodao_paris_1483_1_f98c9be55d91faf5110f408b1a5b7354.jpg",
         "alt": "Imagem de um kit de toalhas de rosto"
       },
-      "name": "Toalha de Rosto"
+      "name": "Toalha de Rosto",
+      "uid": "5ff394b-2127-4fbf-b355-0ab8dbb8c3bd"
     },
     {
       "image": {
         "src": "https://images.tcdn.com.br/img/img_prod/875745/jogo_com_07_pano_de_prato_atoalhado_felpudo_100_algodao_estampas_diversas_921_1_c7f5d25a82fd0de0b928ce3b47f189fc.jpg",
         "alt": "Imagem de um kit de panos de prato"
       },
-      "name": "Pano de prato"
+      "name": "Pano de prato",
+      "uid": "70c12ece-7421-41a3-a044-dd1f43364987"
     },
     {
       "image": {
         "src": "https://loja.supermerclick.com.br/image/cache/catalog/produtos-integracao/003040-omie___pano-de-chao__conv-1000x1000.jpg",
         "alt": "Imagem de pano de chão"
       },
-      "name": "Pano de chão"
+      "name": "Pano de chão",
+      "uid": "edba3c22-c8a1-4f44-b0b2-cd5c786ab076"
     },
     {
       "image": {
@@ -71,7 +79,8 @@
       },
       "available": "1",
       "name": "Kit de potes de mantimentos",
-      "link": "https://www.amazon.com.br/Herm%C3%A9ticos-Mantimentos-Empilh%C3%A1veis-House-Organizer/dp/B0BHV1C6QS/ref=sr_1_5?crid=23I01JHF23B0D&dib=eyJ2IjoiMSJ9.RzsjdvFgSWQDioL-Gt3zeb1DVBN2Xji-wBdsBtLa-V2qFD9D_-qYBu3plnvadIZymgJlYllvpI3zSQSmWFjMJ1dRCBGBK7m04yxZ2wzWNmoZMFRt3W0VE4nSKFUo7zuqpBi3_w7UkBpPkpph3REFqkQ_9N_qgCfeTuxSjJRr34NMIJcdYzS2NwWIXf-rJTM3nvBt4B66CIrPYdhzvpAf4L5Xc3RSPTPlqrdWjDCFs-ktbn5bt-4MON1Sy-IPUZ_3vCMh7zSJZ9fMDU8Y2RNyIU_9W2BWBVf2zkpgeZQC1Ns.z6YwZa65FNX7pAjfxDXlewx2ebph0oRasGd6KXjdiwM&dib_tag=se&keywords=deposito+de+mantimentos&qid=1720645308&sprefix=depositos+de+man%2Caps%2C357&sr=8-5&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e"
+      "link": "https://www.amazon.com.br/Herm%C3%A9ticos-Mantimentos-Empilh%C3%A1veis-House-Organizer/dp/B0BHV1C6QS/ref=sr_1_5?crid=23I01JHF23B0D&dib=eyJ2IjoiMSJ9.RzsjdvFgSWQDioL-Gt3zeb1DVBN2Xji-wBdsBtLa-V2qFD9D_-qYBu3plnvadIZymgJlYllvpI3zSQSmWFjMJ1dRCBGBK7m04yxZ2wzWNmoZMFRt3W0VE4nSKFUo7zuqpBi3_w7UkBpPkpph3REFqkQ_9N_qgCfeTuxSjJRr34NMIJcdYzS2NwWIXf-rJTM3nvBt4B66CIrPYdhzvpAf4L5Xc3RSPTPlqrdWjDCFs-ktbn5bt-4MON1Sy-IPUZ_3vCMh7zSJZ9fMDU8Y2RNyIU_9W2BWBVf2zkpgeZQC1Ns.z6YwZa65FNX7pAjfxDXlewx2ebph0oRasGd6KXjdiwM&dib_tag=se&keywords=deposito+de+mantimentos&qid=1720645308&sprefix=depositos+de+man%2Caps%2C357&sr=8-5&ufe=app_do%3Aamzn1.fos.a492fd4a-f54d-4e8d-8c31-35e0a04ce61e",
+      "uid":"60cb124d-165c-4340-80a6-151faf00fe11"
     },
     {
       "image": {
@@ -80,7 +89,8 @@
       },
       "available": "1",
       "name": "Kit de descanso de panela",
-      "link": "https://www.amazon.com.br/Descanso-Suporte-Redondo-Silicone-MARAMASHOP/dp/B0D77FD9XP/ref=sr_1_13?crid=3DRXM0UC0M8KY&dib=eyJ2IjoiMSJ9.yPnUnaBO3NyJIk43lJWGAM_-AGGj24cf8fo37iZBKCLenPgXQOxwCcgLO6BN7unQcWGCZhELwQbQp5VH6mHNmXIyKW2ZiQ5pq2QyhRUbBsPLeg8KaST3o0w5w0mMQ-6c65S6tByn6yTuRmVJShk-FbauN4mj3ACz3eGGJYvTxsERNFEE4r3_69R-kvcJAXj_rrMBmsQ19WMzqeMMM65hMYHg_Zn-Xn3jAci2FPVagAqHDHSOM3-55wsdkr_G29usC94p18HmlZ5fntLswaYdQOqV66dfEKRTFS5aJXzI8gw.HIE3-S2Gl2CEKH8qRHIt2uWqKi2THLPB3wdI9SsOi3A&dib_tag=se&keywords=descanso+de+panela&qid=1720650939&sprefix=descanso%2Caps%2C441&sr=8-13"
+      "link": "https://www.amazon.com.br/Descanso-Suporte-Redondo-Silicone-MARAMASHOP/dp/B0D77FD9XP/ref=sr_1_13?crid=3DRXM0UC0M8KY&dib=eyJ2IjoiMSJ9.yPnUnaBO3NyJIk43lJWGAM_-AGGj24cf8fo37iZBKCLenPgXQOxwCcgLO6BN7unQcWGCZhELwQbQp5VH6mHNmXIyKW2ZiQ5pq2QyhRUbBsPLeg8KaST3o0w5w0mMQ-6c65S6tByn6yTuRmVJShk-FbauN4mj3ACz3eGGJYvTxsERNFEE4r3_69R-kvcJAXj_rrMBmsQ19WMzqeMMM65hMYHg_Zn-Xn3jAci2FPVagAqHDHSOM3-55wsdkr_G29usC94p18HmlZ5fntLswaYdQOqV66dfEKRTFS5aJXzI8gw.HIE3-S2Gl2CEKH8qRHIt2uWqKi2THLPB3wdI9SsOi3A&dib_tag=se&keywords=descanso+de+panela&qid=1720650939&sprefix=descanso%2Caps%2C441&sr=8-13",
+    "uid": "52068a5c-788b-4c28-a697-c314ec83bb33"
     },
     {
       "image": {
@@ -89,7 +99,8 @@
       },
       "available": "1",
       "name": "Descanso de colheres",
-      "link": "https://www.amazon.com.br/Gen%C3%A9rico-9999-Descanso-Talheres-Panela/dp/B0CW243ZXS/ref=sr_1_3_sspa?crid=3DRXM0UC0M8KY&dib=eyJ2IjoiMSJ9.yPnUnaBO3NyJIk43lJWGAM_-AGGj24cf8fo37iZBKCLenPgXQOxwCcgLO6BN7unQcWGCZhELwQbQp5VH6mHNmXIyKW2ZiQ5pq2QyhRUbBsPLeg8KaST3o0w5w0mMQ-6c65S6tByn6yTuRmVJShk-FbauN4mj3ACz3eGGJYvTxsERNFEE4r3_69R-kvcJAXj_rrMBmsQ19WMzqeMMM65hMYHg_Zn-Xn3jAci2FPVagAqHDHSOM3-55wsdkr_G29usC94p18HmlZ5fntLswaYdQOqV66dfEKRTFS5aJXzI8gw.HIE3-S2Gl2CEKH8qRHIt2uWqKi2THLPB3wdI9SsOi3A&dib_tag=se&keywords=descanso+de+panela&qid=1720650939&sprefix=descanso%2Caps%2C441&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+      "link": "https://www.amazon.com.br/Gen%C3%A9rico-9999-Descanso-Talheres-Panela/dp/B0CW243ZXS/ref=sr_1_3_sspa?crid=3DRXM0UC0M8KY&dib=eyJ2IjoiMSJ9.yPnUnaBO3NyJIk43lJWGAM_-AGGj24cf8fo37iZBKCLenPgXQOxwCcgLO6BN7unQcWGCZhELwQbQp5VH6mHNmXIyKW2ZiQ5pq2QyhRUbBsPLeg8KaST3o0w5w0mMQ-6c65S6tByn6yTuRmVJShk-FbauN4mj3ACz3eGGJYvTxsERNFEE4r3_69R-kvcJAXj_rrMBmsQ19WMzqeMMM65hMYHg_Zn-Xn3jAci2FPVagAqHDHSOM3-55wsdkr_G29usC94p18HmlZ5fntLswaYdQOqV66dfEKRTFS5aJXzI8gw.HIE3-S2Gl2CEKH8qRHIt2uWqKi2THLPB3wdI9SsOi3A&dib_tag=se&keywords=descanso+de+panela&qid=1720650939&sprefix=descanso%2Caps%2C441&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1", 
+      "uid": "9852c01b-1b00-40e3-a160-1c6bcca181b1"
     },
     {
       "image": {
@@ -98,14 +109,16 @@
       },
       "available": "1",
       "name": "Luva térmica para forno",
-      "link": "https://www.amazon.com.br/T%C3%A9rmica-Forno-Gamer-Presente-Criativo/dp/B098CYK1RM/ref=sr_1_15?crid=29JEV2AX3V5K&dib=eyJ2IjoiMSJ9.cpAp9ajNybcKUSObnO4xRJrF5Kszc2Fx9KNWOn_IqIgsXHVgHbA0P2w2F-us3AR3z-AxbcKP9edFCoI65ZRiUy-SPP0PGIKa0wAWv8cCO6O91lxUoQqrdx-kWVXQ6cr8DjQ7EBMjDNxDeHyRS-88jmKsqKDNHqJDCsy2R0EI-NS3fQ0ETh8Hg3Hji3a7UTWxf34mQiKShx6YnX8Rfh5byngkxZW0E27hR8K0Ge9nK1-krXUJh7DznD7vpsT5puH2pSqiBhHr9DiVioVHI2tpxmGB7A6iE1_rqaLwvCc3Cuw.aeki2rPTWEsY22teH8gtQeGXw1B9ouvXlLWvt73z_lg&dib_tag=se&keywords=luvas+de+forno+para+cozinha&qid=1720653869&sprefix=luvas+de+forno%2Caps%2C220&sr=8-15"
+      "link": "https://www.amazon.com.br/T%C3%A9rmica-Forno-Gamer-Presente-Criativo/dp/B098CYK1RM/ref=sr_1_15?crid=29JEV2AX3V5K&dib=eyJ2IjoiMSJ9.cpAp9ajNybcKUSObnO4xRJrF5Kszc2Fx9KNWOn_IqIgsXHVgHbA0P2w2F-us3AR3z-AxbcKP9edFCoI65ZRiUy-SPP0PGIKa0wAWv8cCO6O91lxUoQqrdx-kWVXQ6cr8DjQ7EBMjDNxDeHyRS-88jmKsqKDNHqJDCsy2R0EI-NS3fQ0ETh8Hg3Hji3a7UTWxf34mQiKShx6YnX8Rfh5byngkxZW0E27hR8K0Ge9nK1-krXUJh7DznD7vpsT5puH2pSqiBhHr9DiVioVHI2tpxmGB7A6iE1_rqaLwvCc3Cuw.aeki2rPTWEsY22teH8gtQeGXw1B9ouvXlLWvt73z_lg&dib_tag=se&keywords=luvas+de+forno+para+cozinha&qid=1720653869&sprefix=luvas+de+forno%2Caps%2C220&sr=8-15",
+      "uid": "fac281c7-15a0-43ba-958c-06ad38f17f55"
     },
     {
       "image": {
         "src": "https://www.casaalmeida.com.br/media/catalog/product/7/9/7909301590025_02023080219230660.jpg?optimize=medium&fit=bounds&height=850&width=850&canvas=850:850",
         "alt": "Imagem de um jogo de cama"
       },
-      "name": "Jogo de cama de casal  (140x190 cm)"
+      "name": "Jogo de cama de casal  (140x190 cm)",
+      "uid": "f1dea57c-5248-4b54-a496-22c384e4c839"
     },
     {
       "image": {
@@ -114,14 +127,16 @@
       },
       "available": "1",
       "name": "Jogo de taças de sobremesa",
-      "link": "https://www.amazon.com.br/Sobremesa-Vidro-Sorvete-Conjunto-Ta%C3%A7as/dp/B0D8JXVW87/ref=sr_1_1_sspa?crid=2USFXHSTZEE5D&dib=eyJ2IjoiMSJ9.366gRGAMCgq-h_GW0gstqNJ3jjlfhBqxDT4C5TdnppxbJJcfAcQuz_Ik3H74Y2ynlDGViLMbedcog6neADrHjMqythRGNG3ka2Ie0av_tYXB8sR_1lexLrCaReJOUN8Wtn0r35BGjqXXSOeNzTQaIlK6ZhDAqAf-sCB6GJhdKg1O_k5uA-tDGkEfg3r4YPHxLBv_aVWSBU1KGDLx3ucBYPbzMkOo88D4sQavyxO7o17BL5b9XH6RAh6SDS7zlDvfc3doycaVrPz8--7YquZeyUIDF7BlRpe_igm-b2LEysw._pZbR2TQTybuCsLDm4N7sBVJbW855YNzXve_5JJp23U&dib_tag=se&keywords=ta%C3%A7a+de+sobremesa&qid=1720897060&sprefix=taca+de+%2Caps%2C261&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=15"
+      "link": "https://www.amazon.com.br/Sobremesa-Vidro-Sorvete-Conjunto-Ta%C3%A7as/dp/B0D8JXVW87/ref=sr_1_1_sspa?crid=2USFXHSTZEE5D&dib=eyJ2IjoiMSJ9.366gRGAMCgq-h_GW0gstqNJ3jjlfhBqxDT4C5TdnppxbJJcfAcQuz_Ik3H74Y2ynlDGViLMbedcog6neADrHjMqythRGNG3ka2Ie0av_tYXB8sR_1lexLrCaReJOUN8Wtn0r35BGjqXXSOeNzTQaIlK6ZhDAqAf-sCB6GJhdKg1O_k5uA-tDGkEfg3r4YPHxLBv_aVWSBU1KGDLx3ucBYPbzMkOo88D4sQavyxO7o17BL5b9XH6RAh6SDS7zlDvfc3doycaVrPz8--7YquZeyUIDF7BlRpe_igm-b2LEysw._pZbR2TQTybuCsLDm4N7sBVJbW855YNzXve_5JJp23U&dib_tag=se&keywords=ta%C3%A7a+de+sobremesa&qid=1720897060&sprefix=taca+de+%2Caps%2C261&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=15",
+      "uid": "af5306c6-e87a-4e41-ad55-20b41da00451"
     },
     {
       "image": {
         "src": "https://http2.mlstatic.com/D_NQ_NP_2X_679676-MLB30580425664_052019-F.webp",
         "alt": "Imagem de kit de lençol"
       },
-      "name": "Lençol"
+      "name": "Lençol",
+      "uid": "9c5987c1-aa7a-4fe5-87d7-975ce5df918d"
     }
   ]
 }

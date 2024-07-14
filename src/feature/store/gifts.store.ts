@@ -20,14 +20,12 @@ const useGiftStore = create<IGiftsState & IGiftsAction>((set) => ({
   onSendGift: (gift: IGift, userName: string) =>
     set((state) => {
       const userData = { name: userName, gift: gift.uid, uid: uuid() };
-
       update(ref(firebaseDb, "gifts/" + gift.uid), { stock: gift.stock - 1 })
         .then(() => console.log("=> success gifts"))
         .catch(() => console.log("=> error gifts"));
       firebaseSet(ref(firebaseDb, "chosen/" + userData.uid), userData)
         .then(() => console.log("=> success users"))
         .catch(() => console.log("=> error users"));
-
 
       return {
         ...state,

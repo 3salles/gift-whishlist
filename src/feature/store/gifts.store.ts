@@ -9,6 +9,7 @@ import {
 } from "../types/gifts.type";
 import { ref, set as firebaseSet, update } from "firebase/database";
 import { firebaseDb } from "../../services/firebase-config";
+import { uuid } from "../utils/uuid-generator";
 
 const useGiftStore = create<IGiftsState & IGiftsAction>((set) => ({
   ...giftsInitialState,
@@ -18,12 +19,12 @@ const useGiftStore = create<IGiftsState & IGiftsAction>((set) => ({
     set((state) => ({ ...state, selectedGift: gift })),
   onSendGift: (gift: IGift, userName: string) =>
     set((state) => {
-      const userData = { name: userName, gift: gift.uid };
+      const userData = { name: userName, gift: gift.uid, uid: uuid() };
 
       update(ref(firebaseDb, "gifts/" + gift.uid), { stock: gift.stock - 1 })
         .then(() => console.log("=> success gifts"))
         .catch(() => console.log("=> error gifts"));
-      firebaseSet(ref(firebaseDb, "choosen"), userData)
+      firebaseSet(ref(firebaseDb, "chosen/" + userData.uid), userData)
         .then(() => console.log("=> success users"))
         .catch(() => console.log("=> error users"));
 

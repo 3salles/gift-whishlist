@@ -7,26 +7,23 @@ import { useEffect, useState } from "react";
 import { onValue, ref } from "firebase/database";
 import sortByLinkPresence from "./feature/utils/sort-by-link-presence";
 import { IGift } from "./feature/types/gifts.type";
-import useGiftStore from "./feature/store/gifts.store";
 
 function App() {
   const [gifts, setGifts] = useState<any>([]);
-  const { selectedGift } = useGiftStore();
-  console.log("=> ", selectedGift);
 
   useEffect(() => {
     const query = ref(firebaseDb, "gifts");
 
-    const unsubscribe = onValue(query, (snapshot) => {
+    onValue(query, (snapshot) => {
       const data = snapshot.val();
 
       if (snapshot.exists()) {
-        const projectsArray = Object.values<IGift>(data);
-        setGifts(sortByLinkPresence(projectsArray));
+        const giftsArray = Object.values<IGift>(data);
+        setGifts(sortByLinkPresence(giftsArray));
+      } else {
+        console.error("=> data not found"); //TODO - Add notification
       }
     });
-
-    return () => unsubscribe();
   }, []);
 
   return (

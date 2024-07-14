@@ -11,13 +11,13 @@ interface ICardProps {
 export default function Card({ gift }: ICardProps) {
   const { toggleFinalModal, onSelectGift } = useGiftStore();
 
-  const { image, name, link, available } = gift;
+  const { image, name, link, stock, limited } = gift;
 
   const onGift = () => {
     onSelectGift(gift);
     toggleFinalModal({ visible: true, step: "identify" });
   };
-  const disabled = !available && available === 0;
+  const disabled = limited && stock <= 0;
 
   return (
     <div className="card-container">

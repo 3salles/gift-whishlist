@@ -1,11 +1,22 @@
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import useGiftStore from "../../feature/store/gifts.store";
+import { ChangeEvent, useState } from "react";
 
 export default function IdentifyPersonStep() {
-  const { finalModal, toggleFinalModal } = useGiftStore();
+  const { finalModal, selectedGift, toggleFinalModal, onSendGift } =
+    useGiftStore();
+
+  const [userName, setUserName] = useState("");
+
+  const onUserInputChange = (evt: ChangeEvent<HTMLInputElement>) =>
+    setUserName(evt.target.value);
 
   const onCancel = () => toggleFinalModal({ ...finalModal, visible: false });
-  const onSend = () => toggleFinalModal({ ...finalModal, step: "final" });
+
+  const onSend = () => {
+    onSendGift(selectedGift, userName);
+    setUserName("");
+  };
 
   return (
     <div className="final-modal-content">
@@ -20,7 +31,11 @@ export default function IdentifyPersonStep() {
       </p>
       <span>Relaxa, não será revelado o presente que você está dando.</span>
 
-      <input type="text" placeholder="Digite seu nome" />
+      <input
+        type="text"
+        placeholder="Digite seu nome"
+        onChange={onUserInputChange}
+      />
 
       <footer>
         <button className="primary" onClick={onSend}>

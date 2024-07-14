@@ -7,7 +7,8 @@ export interface IGift {
     alt: string;
     src: string;
   };
-  available?: number;
+  stock: number;
+  limited: boolean;
   link?: string;
 }
 export interface IGiftsState {
@@ -18,4 +19,5 @@ export interface IGiftsState {
 export interface IGiftsAction {
   toggleFinalModal: (modal: IFinalModal) => void;
   onSelectGift: (gift: IGift) => void;
+  onSendGift: (gift: IGift, user: string) => void;
 }

@@ -37,3 +37,17 @@
     grid-template-columns: 280px 280px 280px 280px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    height: 100%;
+
+    canvas {
+      height: 70% !important;
+    }
+
+    &.--loader {
+      height: 100vh;
+    }
+  }
+}
